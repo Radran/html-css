@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'ras';
+    src: url(fonts/Spooky\ Stories.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body {
+    background-color: #20F481;
+    text-align: center;
+}
+header {
+    color: white;
+    background-color: #007876;
+    text-align: center;
+    padding: 50px;
+    min-width: 150px;
+}
+header > h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+header > p {
+    text-align: justify;
+}
+p {
+    padding: 15px;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(2, 53, 53,0.616);
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 10px;
+    margin:auto
+}
+aside > h1 {
+    margin-bottom: 20px;
+}
+h1{
+    font-family: 'ras', 'Times New Roman', Times, serif;
+    color: #008F8C;
+    text-align: center;
+    text-shadow: 1px 1px 0px  #007876;
+    
+}
+h2 {
+   font-family: 'ras', 'Times New Roman', Times, serif;
+    color: #015958;
+    margin-bottom: 15px;
+}
+h3, h4{
+    font-family: 'ras', 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+img {
+    border-radius: 10px;
+    width: 60%;
+    
+}
+iframe {
+    border-radius: 10px;
+    width: 60%;
+}
+footer {
+    margin-top: 20px;
+    background-color: #015958;
+    color: white;
+}
