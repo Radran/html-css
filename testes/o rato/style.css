@@ -70,6 +70,10 @@ iframe {
     border-radius: 10px;
     width: 60%;
 }
+.Skills {
+    height: 40px;
+    width: 40px;
+}
 footer {
     margin-top: 20px;
     background-color: #015958;
